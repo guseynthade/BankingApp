@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042201932B67A02C005420A4 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042201922B67A02C005420A4 /* ForgetViewController.swift */; };
+		0423B6932B63958600777E4A /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423B6922B63958600777E4A /* RealmHelper.swift */; };
+		0432BC142B68F925005805B5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432BC132B68F925005805B5 /* Card.swift */; };
+		0448D8EF2B94899C000DAE9B /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448D8EE2B94899C000DAE9B /* TransferViewController.swift */; };
+		0454C0562B8E492300699900 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454C0552B8E492300699900 /* AddCardViewController.swift */; };
+		0480BB4B2B8A7A9A002AFDDE /* PlusCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480BB492B8A7A9A002AFDDE /* PlusCardCell.swift */; };
+		0480BB4C2B8A7A9A002AFDDE /* PlusCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0480BB4A2B8A7A9A002AFDDE /* PlusCardCell.xib */; };
+		0480BB4E2B8A8031002AFDDE /* ActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480BB4D2B8A8031002AFDDE /* ActionModel.swift */; };
+		0480BB502B8B5FE4002AFDDE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480BB4F2B8B5FE4002AFDDE /* Extension.swift */; };
+		049855752B6124B400A25B74 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049855742B6124B400A25B74 /* SignUpViewController.swift */; };
+		04AAA10F2B76203F004A7CC6 /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA10D2B76203F004A7CC6 /* CardCollectionCell.swift */; };
+		04AAA1102B76203F004A7CC6 /* CardCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AAA10E2B76203F004A7CC6 /* CardCollectionCell.xib */; };
+		04AAA1152B762460004A7CC6 /* ActionCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA1132B762460004A7CC6 /* ActionCollectionCell.swift */; };
+		04AAA1162B762460004A7CC6 /* ActionCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AAA1142B762460004A7CC6 /* ActionCollectionCell.xib */; };
+		04AAA11A2B7628D4004A7CC6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA1182B7628D4004A7CC6 /* CardCell.swift */; };
+		04AAA11B2B7628D4004A7CC6 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AAA1192B7628D4004A7CC6 /* CardCell.xib */; };
 		04C5F1322B5824E3003B1B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1312B5824E3003B1B62 /* AppDelegate.swift */; };
 		04C5F1342B5824E3003B1B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1332B5824E3003B1B62 /* SceneDelegate.swift */; };
-		04C5F1362B5824E3003B1B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1352B5824E3003B1B62 /* ViewController.swift */; };
 		04C5F1392B5824E3003B1B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5F1372B5824E3003B1B62 /* Main.storyboard */; };
-		04C5F13C2B5824E3003B1B62 /* BankingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F13A2B5824E3003B1B62 /* BankingApp.xcdatamodeld */; };
 		04C5F13E2B5824E6003B1B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5F13D2B5824E6003B1B62 /* Assets.xcassets */; };
 		04C5F1412B5824E6003B1B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5F13F2B5824E6003B1B62 /* LaunchScreen.storyboard */; };
+		04C5F1492B58261A003B1B62 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1482B58261A003B1B62 /* TabBarViewController.swift */; };
+		04C5F14B2B582672003B1B62 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F14A2B582672003B1B62 /* HomeViewController.swift */; };
+		04C5F14D2B582680003B1B62 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F14C2B582680003B1B62 /* MoreViewController.swift */; };
+		04C7EB852B763EAF0000E2DE /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7EB832B763EAF0000E2DE /* ActionCell.swift */; };
+		04C7EB862B763EAF0000E2DE /* ActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C7EB842B763EAF0000E2DE /* ActionCell.xib */; };
+		04CDC5C62B591FBC0088F684 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDC5C52B591FBC0088F684 /* Login.storyboard */; };
+		04CDC5C82B59211A0088F684 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDC5C72B59211A0088F684 /* LoginViewController.swift */; };
+		04CDC5CE2B59428A0088F684 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDC5CD2B59428A0088F684 /* SignInViewController.swift */; };
+		04CDC5D02B594F040088F684 /* TermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDC5CF2B594F040088F684 /* TermViewController.swift */; };
+		04F42A452B5FE8BF0094ACB1 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F42A442B5FE8BE0094ACB1 /* HelpViewController.swift */; };
+		04F42A482B611D080094ACB1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F42A472B611D080094ACB1 /* User.swift */; };
+		04F42A4A2B6120940094ACB1 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 04F42A492B6120940094ACB1 /* Realm */; };
+		04F42A4C2B6120940094ACB1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04F42A4B2B6120940094ACB1 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042201922B67A02C005420A4 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		0423B6922B63958600777E4A /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		0432BC132B68F925005805B5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0448D8EE2B94899C000DAE9B /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		0454C0552B8E492300699900 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		0480BB492B8A7A9A002AFDDE /* PlusCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCardCell.swift; sourceTree = "<group>"; };
+		0480BB4A2B8A7A9A002AFDDE /* PlusCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlusCardCell.xib; sourceTree = "<group>"; };
+		0480BB4D2B8A8031002AFDDE /* ActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModel.swift; sourceTree = "<group>"; };
+		0480BB4F2B8B5FE4002AFDDE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		049855742B6124B400A25B74 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04AAA10D2B76203F004A7CC6 /* CardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		04AAA10E2B76203F004A7CC6 /* CardCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionCell.xib; sourceTree = "<group>"; };
+		04AAA1132B762460004A7CC6 /* ActionCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCollectionCell.swift; sourceTree = "<group>"; };
+		04AAA1142B762460004A7CC6 /* ActionCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionCollectionCell.xib; sourceTree = "<group>"; };
+		04AAA1182B7628D4004A7CC6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		04AAA1192B7628D4004A7CC6 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		04C5F12E2B5824E3003B1B62 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5F1312B5824E3003B1B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C5F1332B5824E3003B1B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C5F1352B5824E3003B1B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C5F1382B5824E3003B1B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C5F13B2B5824E3003B1B62 /* BankingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BankingApp.xcdatamodel; sourceTree = "<group>"; };
 		04C5F13D2B5824E6003B1B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C5F1402B5824E6003B1B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C5F1422B5824E6003B1B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C5F1482B58261A003B1B62 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		04C5F14A2B582672003B1B62 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04C5F14C2B582680003B1B62 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		04C7EB832B763EAF0000E2DE /* ActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		04C7EB842B763EAF0000E2DE /* ActionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionCell.xib; sourceTree = "<group>"; };
+		04CDC5C52B591FBC0088F684 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		04CDC5C72B59211A0088F684 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04CDC5CD2B59428A0088F684 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		04CDC5CF2B594F040088F684 /* TermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermViewController.swift; sourceTree = "<group>"; };
+		04F42A442B5FE8BE0094ACB1 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		04F42A472B611D080094ACB1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +85,115 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F42A4C2B6120940094ACB1 /* RealmSwift in Frameworks */,
+				04F42A4A2B6120940094ACB1 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042201942B67A03B005420A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04CDC5CF2B594F040088F684 /* TermViewController.swift */,
+				04CDC5C72B59211A0088F684 /* LoginViewController.swift */,
+				04F42A442B5FE8BE0094ACB1 /* HelpViewController.swift */,
+				04CDC5CD2B59428A0088F684 /* SignInViewController.swift */,
+				049855742B6124B400A25B74 /* SignUpViewController.swift */,
+				042201922B67A02C005420A4 /* ForgetViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		042201952B67F78E005420A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04AAA10B2B761FDE004A7CC6 /* View */,
+				04C5F14A2B582672003B1B62 /* HomeViewController.swift */,
+				04C5F14C2B582680003B1B62 /* MoreViewController.swift */,
+				0454C0552B8E492300699900 /* AddCardViewController.swift */,
+				0448D8EE2B94899C000DAE9B /* TransferViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0480BB482B8A7A6B002AFDDE /* PlusCardCell */ = {
+			isa = PBXGroup;
+			children = (
+				0480BB492B8A7A9A002AFDDE /* PlusCardCell.swift */,
+				0480BB4A2B8A7A9A002AFDDE /* PlusCardCell.xib */,
+			);
+			path = PlusCardCell;
+			sourceTree = "<group>";
+		};
+		049855762B62DC2E00A25B74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04F42A472B611D080094ACB1 /* User.swift */,
+				0432BC132B68F925005805B5 /* Card.swift */,
+				0480BB4D2B8A8031002AFDDE /* ActionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AAA10A2B761DFF004A7CC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C5F1482B58261A003B1B62 /* TabBarViewController.swift */,
+				04C5F1372B5824E3003B1B62 /* Main.storyboard */,
+				04CDC5C52B591FBC0088F684 /* Login.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04AAA10B2B761FDE004A7CC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AAA10C2B761FEA004A7CC6 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AAA10C2B761FEA004A7CC6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0480BB482B8A7A6B002AFDDE /* PlusCardCell */,
+				04AAA1172B7628BE004A7CC6 /* CardCell */,
+				04C7EB872B763EBC0000E2DE /* ActionCell */,
+				04AAA1112B76204E004A7CC6 /* CardCollectionCell */,
+				04AAA1122B762443004A7CC6 /* ActionCollectionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04AAA1112B76204E004A7CC6 /* CardCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				04AAA10D2B76203F004A7CC6 /* CardCollectionCell.swift */,
+				04AAA10E2B76203F004A7CC6 /* CardCollectionCell.xib */,
+			);
+			path = CardCollectionCell;
+			sourceTree = "<group>";
+		};
+		04AAA1122B762443004A7CC6 /* ActionCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				04AAA1132B762460004A7CC6 /* ActionCollectionCell.swift */,
+				04AAA1142B762460004A7CC6 /* ActionCollectionCell.xib */,
+			);
+			path = ActionCollectionCell;
+			sourceTree = "<group>";
+		};
+		04AAA1172B7628BE004A7CC6 /* CardCell */ = {
+			isa = PBXGroup;
+			children = (
+				04AAA1182B7628D4004A7CC6 /* CardCell.swift */,
+				04AAA1192B7628D4004A7CC6 /* CardCell.xib */,
+			);
+			path = CardCell;
+			sourceTree = "<group>";
+		};
 		04C5F1252B5824E3003B1B62 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +215,26 @@
 			children = (
 				04C5F1312B5824E3003B1B62 /* AppDelegate.swift */,
 				04C5F1332B5824E3003B1B62 /* SceneDelegate.swift */,
-				04C5F1352B5824E3003B1B62 /* ViewController.swift */,
-				04C5F1372B5824E3003B1B62 /* Main.storyboard */,
+				04AAA10A2B761DFF004A7CC6 /* Controller */,
+				049855762B62DC2E00A25B74 /* Model */,
+				042201942B67A03B005420A4 /* Login */,
+				042201952B67F78E005420A4 /* Home */,
+				0423B6922B63958600777E4A /* RealmHelper.swift */,
+				0480BB4F2B8B5FE4002AFDDE /* Extension.swift */,
 				04C5F13D2B5824E6003B1B62 /* Assets.xcassets */,
 				04C5F13F2B5824E6003B1B62 /* LaunchScreen.storyboard */,
 				04C5F1422B5824E6003B1B62 /* Info.plist */,
-				04C5F13A2B5824E3003B1B62 /* BankingApp.xcdatamodeld */,
 			);
 			path = BankingApp;
+			sourceTree = "<group>";
+		};
+		04C7EB872B763EBC0000E2DE /* ActionCell */ = {
+			isa = PBXGroup;
+			children = (
+				04C7EB832B763EAF0000E2DE /* ActionCell.swift */,
+				04C7EB842B763EAF0000E2DE /* ActionCell.xib */,
+			);
+			path = ActionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +253,10 @@
 			dependencies = (
 			);
 			name = BankingApp;
+			packageProductDependencies = (
+				04F42A492B6120940094ACB1 /* Realm */,
+				04F42A4B2B6120940094ACB1 /* RealmSwift */,
+			);
 			productName = BankingApp;
 			productReference = 04C5F12E2B5824E3003B1B62 /* BankingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +285,9 @@
 				Base,
 			);
 			mainGroup = 04C5F1252B5824E3003B1B62;
+			packageReferences = (
+				04F42A462B611B5B0094ACB1 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 04C5F12F2B5824E3003B1B62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,7 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C5F1412B5824E6003B1B62 /* LaunchScreen.storyboard in Resources */,
+				04AAA1162B762460004A7CC6 /* ActionCollectionCell.xib in Resources */,
+				04AAA11B2B7628D4004A7CC6 /* CardCell.xib in Resources */,
 				04C5F13E2B5824E6003B1B62 /* Assets.xcassets in Resources */,
+				04AAA1102B76203F004A7CC6 /* CardCollectionCell.xib in Resources */,
+				04C7EB862B763EAF0000E2DE /* ActionCell.xib in Resources */,
+				0480BB4C2B8A7A9A002AFDDE /* PlusCardCell.xib in Resources */,
+				04CDC5C62B591FBC0088F684 /* Login.storyboard in Resources */,
 				04C5F1392B5824E3003B1B62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +321,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C5F1362B5824E3003B1B62 /* ViewController.swift in Sources */,
+				04C5F14D2B582680003B1B62 /* MoreViewController.swift in Sources */,
 				04C5F1322B5824E3003B1B62 /* AppDelegate.swift in Sources */,
-				04C5F13C2B5824E3003B1B62 /* BankingApp.xcdatamodeld in Sources */,
+				04C5F1492B58261A003B1B62 /* TabBarViewController.swift in Sources */,
 				04C5F1342B5824E3003B1B62 /* SceneDelegate.swift in Sources */,
+				04F42A452B5FE8BF0094ACB1 /* HelpViewController.swift in Sources */,
+				04CDC5CE2B59428A0088F684 /* SignInViewController.swift in Sources */,
+				0454C0562B8E492300699900 /* AddCardViewController.swift in Sources */,
+				04C5F14B2B582672003B1B62 /* HomeViewController.swift in Sources */,
+				04F42A482B611D080094ACB1 /* User.swift in Sources */,
+				04CDC5C82B59211A0088F684 /* LoginViewController.swift in Sources */,
+				0448D8EF2B94899C000DAE9B /* TransferViewController.swift in Sources */,
+				0480BB502B8B5FE4002AFDDE /* Extension.swift in Sources */,
+				0432BC142B68F925005805B5 /* Card.swift in Sources */,
+				049855752B6124B400A25B74 /* SignUpViewController.swift in Sources */,
+				042201932B67A02C005420A4 /* ForgetViewController.swift in Sources */,
+				04AAA11A2B7628D4004A7CC6 /* CardCell.swift in Sources */,
+				04CDC5D02B594F040088F684 /* TermViewController.swift in Sources */,
+				04AAA10F2B76203F004A7CC6 /* CardCollectionCell.swift in Sources */,
+				0480BB4E2B8A8031002AFDDE /* ActionModel.swift in Sources */,
+				04C7EB852B763EAF0000E2DE /* ActionCell.swift in Sources */,
+				0423B6932B63958600777E4A /* RealmHelper.swift in Sources */,
+				04AAA1152B762460004A7CC6 /* ActionCollectionCell.swift in Sources */,
+				0480BB4B2B8A7A9A002AFDDE /* PlusCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,9 +510,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = guseynthade.BankingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,9 +542,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = guseynthade.BankingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -368,18 +575,29 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		04C5F13A2B5824E3003B1B62 /* BankingApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				04C5F13B2B5824E3003B1B62 /* BankingApp.xcdatamodel */,
-			);
-			currentVersion = 04C5F13B2B5824E3003B1B62 /* BankingApp.xcdatamodel */;
-			path = BankingApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		04F42A462B611B5B0094ACB1 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04F42A492B6120940094ACB1 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F42A462B611B5B0094ACB1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		04F42A4B2B6120940094ACB1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F42A462B611B5B0094ACB1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04C5F1262B5824E3003B1B62 /* Project object */;
 }
