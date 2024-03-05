@@ -7,6 +7,17 @@
 
 import Foundation
 import UIKit
+
+class Transaction {
+    var sender: Card?
+    var receiver: Card?
+    var amount: Double = 0.0
+    var date: Date?
+    
+    // İhtiyaç duyulursa başka özellikler eklenebilir
+}
+
+
 extension UIImage {
 
     func aspectFitImage(inRect rect: CGRect) -> UIImage? {

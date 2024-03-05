@@ -38,6 +38,9 @@ class TransferViewController: UIViewController {
     @IBOutlet private weak var closeButton: UIButton!
     
     @IBAction func transferAction(_ sender: UIButton) {
+        transfer()
+        
+        viewDidLoad()
         dismiss(animated: true)
     }
     
@@ -47,8 +50,6 @@ class TransferViewController: UIViewController {
     
     let realm = RealmHelper.instance.realm
     private var transferList: Results<Card>?
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,10 +57,35 @@ class TransferViewController: UIViewController {
     }
     
     func transfer() {
-        let tra = transferList
-        
-        
+        guard let fromPan = fromPan.text, let toPan = toPan.text, let amountText = amountField.text, let amount = Double(amountText) else {
+            
+            return
+        }
+
+        guard let senderCard = realm?.objects(Card.self).filter("pan = %@", fromPan).first else {
+            
+            return
+        }
+
+        guard let receiverCard = realm?.objects(Card.self).filter("pan = %@", toPan).first else {
+
+            return
+        }
+
+        try! realm?.write {
+            senderCard.amount -= amount
+        }
+
+        try! realm?.write {
+            receiverCard.amount += amount
+        }
+
+        let transaction = TransferTransaction(sender: senderCard, receiver: receiverCard, amount: amount, date: Date())
+        try! realm?.write {
+            realm?.add(transaction)
+        }
     }
+
     
     fileprivate func setupView() {
         fromPan.layer.cornerRadius = 8

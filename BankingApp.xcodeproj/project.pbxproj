@@ -23,6 +23,7 @@
 		04AAA1162B762460004A7CC6 /* ActionCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AAA1142B762460004A7CC6 /* ActionCollectionCell.xib */; };
 		04AAA11A2B7628D4004A7CC6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA1182B7628D4004A7CC6 /* CardCell.swift */; };
 		04AAA11B2B7628D4004A7CC6 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AAA1192B7628D4004A7CC6 /* CardCell.xib */; };
+		04AF108B2B976B6A00AFCE59 /* TransferTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF108A2B976B6A00AFCE59 /* TransferTransaction.swift */; };
 		04C5F1322B5824E3003B1B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1312B5824E3003B1B62 /* AppDelegate.swift */; };
 		04C5F1342B5824E3003B1B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5F1332B5824E3003B1B62 /* SceneDelegate.swift */; };
 		04C5F1392B5824E3003B1B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5F1372B5824E3003B1B62 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		04AAA1142B762460004A7CC6 /* ActionCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionCollectionCell.xib; sourceTree = "<group>"; };
 		04AAA1182B7628D4004A7CC6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		04AAA1192B7628D4004A7CC6 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		04AF108A2B976B6A00AFCE59 /* TransferTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTransaction.swift; sourceTree = "<group>"; };
 		04C5F12E2B5824E3003B1B62 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5F1312B5824E3003B1B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C5F1332B5824E3003B1B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				04F42A472B611D080094ACB1 /* User.swift */,
 				0432BC132B68F925005805B5 /* Card.swift */,
 				0480BB4D2B8A8031002AFDDE /* ActionModel.swift */,
+				04AF108A2B976B6A00AFCE59 /* TransferTransaction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			files = (
 				04C5F14D2B582680003B1B62 /* MoreViewController.swift in Sources */,
 				04C5F1322B5824E3003B1B62 /* AppDelegate.swift in Sources */,
+				04AF108B2B976B6A00AFCE59 /* TransferTransaction.swift in Sources */,
 				04C5F1492B58261A003B1B62 /* TabBarViewController.swift in Sources */,
 				04C5F1342B5824E3003B1B62 /* SceneDelegate.swift in Sources */,
 				04F42A452B5FE8BF0094ACB1 /* HelpViewController.swift in Sources */,

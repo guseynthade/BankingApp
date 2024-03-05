@@ -52,12 +52,13 @@
                                 <color key="textColor" name="text"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="master" translatesAutoresizingMaskIntoConstraints="NO" id="nQU-sn-bfv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="master" translatesAutoresizingMaskIntoConstraints="NO" id="nQU-sn-bfv">
                                 <rect key="frame" x="303" y="195" width="40" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="UmP-br-SqV"/>
                                     <constraint firstAttribute="height" constant="20" id="VkR-yQ-4rU"/>
                                 </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="small"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" name="sari"/>
